@@ -1,0 +1,114 @@
+html{
+    background-color: grey;
+}
+
+body{
+    border: lavender;
+}
+
+.pic{
+    color: whitesmoke;
+    margin: 2px;
+}
+.container{
+    
+    padding: 15px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 250px);
+    justify-items: stretch;
+    align-items: center;
+}
+
+.picture-a{
+    grid-area: a;
+    background-color: whitesmoke;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.picture-b{
+    grid-area: b;
+    background-color: whitesmoke;
+    grid-column: 36/37;
+    grid-row: 1/2;
+}
+.picture-c{
+    grid-area: c;
+    background-color: whitesmoke;
+    grid-column: 36/37;
+    grid-row: 2/3;
+}
+.picture-d{
+    grid-area: d;
+    background-color: whitesmoke;
+    grid-column: 36/37;
+    grid-row: 3/4;
+}
+/*
+.picture-e{
+    grid-area: e;
+    background-color: whitesmoke;
+}
+.picture-f{
+    grid-area: f;
+    background-color: whitesmoke;
+}
+.picture-g{
+    grid-area: g;
+    background-color: whitesmoke;
+}
+.picture-8{
+    grid-area: h;
+    background-color: whitesmoke;
+}
+.picture-i{
+    grid-area: i;
+    background-color: whitesmoke;
+}
+.picturej{
+    grid-area: j;
+    background-color: whitesmoke;
+}
+.picture-k{
+    grid-area: k;
+    background: whitesmoke;
+}
+.picture-l{
+    grid-area: l;
+    background-color: whitesmoke;
+}
+.picture-m{
+    grid-area: m;
+    background-color: whitesmoke;
+}
+.picture-n{
+    grid-area: n;
+    background-color: whitesmoke;
+}
+.picture-o{
+    grid-area: o;
+    background-color: whitesmoke;
+}
+.picture-p{
+    grid-area: p;
+}
+.picture-q{
+    grid-area: q;
+    background-color: whitesmoke;
+}
+.picture-r{
+    grid-area: r;
+    background-color: whitesmoke;
+}
+.picture-s{
+    grid-area: s;
+    background-color: whitesmoke;
+}
+.picture-t{
+    grid-area: t;
+    background-color: whitesmoke;
+}
+.picture-u{
+    grid-area: u;
+    background-color: whitesmoke;
+}
