@@ -3,112 +3,123 @@ html{
 }
 
 body{
-    border: lavender;
+    border: whitesmoke 5px solid;
+    background-color: whitesmoke;
 }
 
-.pic{
-    color: whitesmoke;
-    margin: 2px;
+nav{
+    display: block;
+    background-color: #B29999;
+    padding: 15px 25px;
 }
+nav a:link{
+    color: #333333;
+    text-decoration: none;
+}
+nav a:visited{
+    color: #333333;
+}
+
 .container{
-    
-    padding: 15px;
+    padding: 10px;
+    margin: 2px;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(5, auto);
+    gap: 2px;
+    justify-self: center;
+    align-items: stretch;
     justify-items: stretch;
-    align-items: center;
 }
 
-.picture-a{
-    grid-area: a;
-    background-color: whitesmoke;
-    grid-column: 1/3;
+.logo{
+    grid-column: 1/5;
     grid-row: 1/4;
 }
-.picture-b{
-    grid-area: b;
-    background-color: whitesmoke;
-    grid-column: 36/37;
+.face{
+    grid-column: 5/6;
     grid-row: 1/2;
 }
-.picture-c{
-    grid-area: c;
-    background-color: whitesmoke;
-    grid-column: 36/37;
+.twit{
+    grid-column: 5/6;
     grid-row: 2/3;
 }
-.picture-d{
-    grid-area: d;
-    background-color: whitesmoke;
-    grid-column: 36/37;
+.anon{
+    grid-column: 5/6;
     grid-row: 3/4;
 }
-/*
-.picture-e{
-    grid-area: e;
-    background-color: whitesmoke;
+.ominous{
+    grid-column: 1/3;
+    grid-row: 4/5;
 }
-.picture-f{
-    grid-area: f;
-    background-color: whitesmoke;
+.joker{
+    grid-column: 3/4;
+    grid-row: 4/5;
 }
-.picture-g{
-    grid-area: g;
-    background-color: whitesmoke;
+.clown{
+    grid-column: 4/5;
+    grid-row: 4/5;
 }
-.picture-8{
-    grid-area: h;
-    background-color: whitesmoke;
+.lazytown{
+    grid-column: 5/6;
+    grid-row: 4/5;
 }
-.picture-i{
-    grid-area: i;
-    background-color: whitesmoke;
+.radio{
+    grid-column: 1/2;
+    grid-row: 5/8;
 }
-.picturej{
-    grid-area: j;
-    background-color: whitesmoke;
+.superhero{
+    grid-column: 2/4;
+    grid-row: 5/6;
 }
-.picture-k{
-    grid-area: k;
-    background: whitesmoke;
+.candy{
+    grid-column: 4/5;
+    grid-row: 5/6;
 }
-.picture-l{
-    grid-area: l;
-    background-color: whitesmoke;
+.pirate{
+    grid-column: 5/6;
+    grid-row: 5/6;
 }
-.picture-m{
-    grid-area: m;
-    background-color: whitesmoke;
+.prop{
+    grid-column: 1/2;
+    grid-row: 7/8;
+    transform: translateY(45px);
 }
-.picture-n{
-    grid-area: n;
-    background-color: whitesmoke;
+.santa{
+    grid-column: 2/3;
+    grid-row: 6/8;
 }
-.picture-o{
-    grid-area: o;
-    background-color: whitesmoke;
+.roaring{
+    grid-column: 3/5;
+    grid-row: 6/7;
 }
-.picture-p{
-    grid-area: p;
+.shipping{
+    grid-column: 5/6;
+    grid-row: 6/7;
 }
-.picture-q{
-    grid-area: q;
-    background-color: whitesmoke;
+.charlieB{
+    grid-column: 3/4;
+    grid-row: 7/8;
 }
-.picture-r{
-    grid-area: r;
-    background-color: whitesmoke;
+.charlieBdos{
+    grid-column: 4/5;
+    grid-row: 7/8;
 }
-.picture-s{
-    grid-area: s;
-    background-color: whitesmoke;
+.ohmeohmy{
+    grid-column: 5/6;
+    grid-row: 7/8;
 }
-.picture-t{
-    grid-area: t;
-    background-color: whitesmoke;
+.mask{
+    grid-column: 1/2;
+    grid-row: 8/9;
 }
-.picture-u{
-    grid-area: u;
-    background-color: whitesmoke;
+.mardi{
+    grid-column: 2/4;
+    grid-row: 8/9;
+}
+
+footer{
+    grid-column: 5;
+    grid-row: 8;
+    transform: translateY(90px);
 }
